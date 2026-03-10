@@ -25,9 +25,9 @@ from investment_appraisal import present_value
 print("Present value:", present_value(FV, r, n))
 ```
 Using .... example, we have:
-$FV$ =
-$r$=
-$n$=
+$FV$ = ....
+$r$=....
+$n$=....
 
 To obtain the present value for ..., we can write:
 
