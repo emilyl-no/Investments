@@ -1,4 +1,46 @@
-# Investments
+# Investment appraisal
+Investment appraisal techniques are used to evaluate whether a project or investment is financially worthwhile.
+
+## Tutorial 
+In this tutorial we will see how to use 'investment_appraisal' to analyse potential investment projects.
+
+In order to use any of the functions, you first need to write:
+``` python 
+import invesment_appraisal
+from invesment_appraisal import 'function'
+```
+Where **'function'** is the relevant function you want to use. 
+In the **How to guide**, it is shown how to use the different functions.
+
+
+## How to guides
+
+### How to compute the present value
+Given a future value $FV$, interest rate $r$, and time period $n$, we can compute the present value using:
+
+``` python
+import investment_appraisal
+from investment_appraisal import present_value
+
+print("Present value:", present_value(FV, r, n))
+```
+Using .... example, we have:
+$FV$ =
+$r$=
+$n$=
+
+To obtain the present value for ..., we can write:
+
+``` python
+import invesment_appraisal
+from invesment_appraisal import present_value
+
+print ("Present value:", present_value(..,..))
+
+This gives:
+
+
+
 ## Time Value of Money ##
 
  ## Present Value ##
