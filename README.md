@@ -2,7 +2,7 @@
 Investment appraisal techniques are used to evaluate whether a project or investment is financially worthwhile.
 
 ## Tutorial 
-In this tutorial we will see how to use 'investment_appraisal' to analyse potential investment projects.
+In this tutorial we will see how to use 'invesment_appraisal' to analyse potential investment projects.
 
 In order to use any of the functions, you first need to write:
 ``` python 
