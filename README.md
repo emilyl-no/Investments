@@ -48,8 +48,16 @@ from invesment_appraisal import future_value
 
 print("Future value:", future_value(PV,r,n))
 ```
+To obtain the future value, we can write:
 
+``` python
+import invesment_appraisal
+from invesment_appraisal import future_value
 
+print("Future value:", future_value(...,..))
+``` 
+
+This gives:
 
 
 
