@@ -39,6 +39,25 @@ print ("Present value:", present_value(..,..))
 ```
 This gives:
 
+### How to compute the future value 
+Given a present value $PV$, interest rate $r$, and time period $n$:
+
+``` python
+import invesment_appraisal
+from invesment_appraisal import future_value
+
+print("Future value:", future_value(PV,r,n))
+```
+
+
+
+
+
+
+
+
+
+
 
 
 ## Time Value of Money ##
