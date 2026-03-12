@@ -7,7 +7,7 @@ In this tutorial we will see how to use 'invesment_appraisal' to analyse potenti
 In order to use any of the functions, you first need to write:
 ``` python 
 import invesment_appraisal
-from invesment_appraisal import 'function'
+from invesment_appraisal import function
 ```
 Where **'function'** is the relevant function you want to use. 
 In the **How to guide**, it is shown how to use the different functions.
@@ -60,12 +60,18 @@ print("Future value:", future_value(...,..))
 This gives:
 
 
+### How to compute annuity present value
 
+An annuity is a series of equal payments over time.
+Given payment $C$,interest rate $r$, and a number of periods $n$:
 
+``` python
+import invesment_appraisal
+from invesment_appraisal import annuity_present_value
 
-
-
-
+print("Annuity present value:",annuity_present_value(C,r,n))
+```
+can u 
 
 
 ## Time Value of Money ##
