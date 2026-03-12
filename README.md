@@ -71,8 +71,20 @@ from invesment_appraisal import annuity_present_value
 
 print("Annuity present value:",annuity_present_value(C,r,n))
 ```
-can u 
+# Example 
+Suppose
+print(".") $C$ =...
+print(".") $r$=...
+print(".") $n$=...
 
+To calculate the annuity present value we can write:
+
+``` python
+import invesment_appraisal
+from invesment_appraisal import annuity_present_value
+
+print("Annuity present value, annuity_present_value(..,..,..))
+```
 
 ## Time Value of Money ##
 
