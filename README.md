@@ -98,8 +98,8 @@ def present_value(future_value, rate, time):
  ## Future Value ##
 
 def future_value(present_value, rate, time):
-    
-    return present_value * (1 + rate) ** time
+
+    return present_value / (1 + rate) ** time
 
 ## Investment Appraisal Methods ##
 
