@@ -94,33 +94,33 @@ print("Annuity present value, annuity_present_value(..,..,..))
 def present_value(future_value, rate, time):
    
     return future_value / (1 + rate) ** time
-
+```
  ## Future Value ##
-
+``` python
 def future_value(present_value, rate, time):
 
     return present_value / (1 + rate) ** time
-
+```
 ## Investment Appraisal Methods ##
 
  ## Net Present Value (NPV) ##
-
+``` python
 def npv(rate, cashflows):
     total = 0
     
     for t, cf in enumerate(cashflows):
         total += cf / (1 + rate) ** t
         return total
-
+```
 ## Internal Rate of Return (IRR) ## 
-
+``` python
 import numpy as np
 
 def irr(cashflows):
     return np.irr(cashflows)
-
+```
 ## Payback Period ##
-
+``` python
 def payback_period(cashflows):
     cumulative = 0
 
@@ -129,9 +129,9 @@ def payback_period(cashflows):
         if cumulative >=  0:
             return year
     return None       
-
+```
 ## Discounted Payback Period ##
-
+``` python
 def discounted_payback(rate, cashflows):
     cumulative = 0
     
@@ -143,9 +143,9 @@ def discounted_payback(rate, cashflows):
             return year
 
     return None
-
+```
 ## Profitability Index (PI) ##
-
+``` python
 def profitability_index(rate, cashflows):
     initial = abs(cashflows[0])
 
@@ -155,30 +155,30 @@ def profitability_index(rate, cashflows):
     )
 
     return pv_future / initial
-
+```
 ## Accounting Rate of Return (ARR) ##
-
+``` python
 def arr(average_profit, initial_investment, scrap_value=0):
     
     average_investment = (initial_investment + scrap_value) / 2
     return average_profit / average_investment
-
+```
 ## Cashflow Models ##
 
 ## Annuity Present Value ##
-
+``` python
 def annuity_pv(payment, rate, periods):
     
     return payment * (1 - (1 + rate) ** -periods) / rate
-
+```
 ## Perpetuity ##
-
+``` python
 def perpetuity(payment, rate):
     
     return payment / rate
-
+```
 ## Growing Perpetuity ##
-
+``` python
 def growing_perpetuity(payment, rate, growth):
     if growth >= rate:
         
