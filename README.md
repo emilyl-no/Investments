@@ -90,9 +90,9 @@ print("Annuity present value, annuity_present_value(..,..,..))
 ## Time Value of Money ##
 
  ## Present Value ##
-
+``` python
 def present_value(future_value, rate, time):
-    
+   
     return future_value / (1 + rate) ** time
 
  ## Future Value ##
@@ -184,3 +184,4 @@ def growing_perpetuity(payment, rate, growth):
         
         raise ValueError("Growth must be less than discount rate")
     return payment / (rate - growth)
+```
