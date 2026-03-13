@@ -241,7 +241,7 @@ Let $n$ be the number of periods $(years)$ & $r$ be the interest rate per period
 This is the value of a present amount of money at a future date.
 
 $$ \text{present value = future value / discount factor} $$
-where the discount factor is $$(1 + r)^(-n)$$
+where the discount factor is $$(1 + r)^{-n}$$
 
 ### The future value 
 
