@@ -87,6 +87,168 @@ from invesment_appraisal import annuity_present_value
 print("Annuity present value, annuity_present_value(..,..,..))
 ```
 
+### How to compute perpetuity
+A perpetuity is a payment that continues forever. 
+Given a payment $C$ and interest rate $r$:
+
+``` python
+import invesment_appraisal
+from invesment_appraisal import perpetuity
+
+print("Perpetuity value:", perpetuity(C,r))
+```
+#### Example 
+``` python
+print ("Perpetuity value:",perpetuity(..,..))
+```
+
+### How to compute growing perpetuity
+A growing perpetuity assumes payments grow at rate $g$:
+
+``` python
+import invesment_appraisal
+from invesment_appraisal import growing_perpetuity
+
+print("Growing perpetuity:", growing_perpetuity(C,r,g))
+```
+
+#### Example 
+``` python
+print ("Growing perpetuity:",growing_perpetuity(..,..))
+```
+
+### How to compute Net Present Value (NPV)
+NPV measures the value of an investment by discounting all future cash flows.
+
+``` python
+import investment_appraisal
+from investment_appraisal import npv
+
+print("NPV:", npv(cash_flows, r))
+```
+#### Example
+``` python
+cash_flows = 
+
+print("NPV:", npv(cash_flows, ..))
+```
+
+### How to compute Internal Rate of Return (IRR)
+
+IRR is the interest rate that makes the NPV equal to zero.
+``` python
+import investment_appraisal
+from investment_appraisal import irr
+
+print("IRR:", irr(cash_flows))
+```
+#### Example:
+``` python
+cash_flows =
+
+print("IRR:", irr(cash_flows))
+```
+
+### How to compute Payback Period
+The payback period measures how long it takes for an investment to recover its initial cost.
+```python
+import investment_appraisal
+from investment_appraisal import payback_period
+
+print("Payback period:", payback_period(initial_investment, cash_flows))
+```
+#### Example:
+```python
+cash_flows = 
+
+print("Payback period:", payback_period(.., cash_flows))
+```
+
+
+### How to compute Discounted Payback Period
+This is similar to payback period but accounts for the time value of money.
+
+```python
+import investment_appraisal
+from investment_appraisal import discounted_payback_period
+
+print("Discounted payback period:", discounted_payback_period(initial, cash_flows, r))
+```
+#### Example:
+
+```python
+cash_flows =
+
+print("Discounted payback period:", discounted_payback_period(1000, cash_flows, 0.1))
+```
+
+
+### How to compute Profitability Index
+
+The profitability index measures the value created per unit of investment.
+
+```python
+import investment_appraisal
+from investment_appraisal import profitability_index
+
+print("Profitability index:", profitability_index(cash_flows, r))
+```
+#### Example:
+```python
+cash_flows = 
+
+print("Profitability index:", profitability_index(cash_flows, ..))
+```
+
+### How to compute Average Rate of Return (ARR)
+ARR measures the profitability of an investment relative to its cost.
+
+```python
+import investment_appraisal
+from investment_appraisal import arr
+
+print("ARR:", arr(average_profit, initial_investment))
+```
+
+#### Example:
+```python
+print("ARR:", arr(200, 1000))
+```
+
+### How to compute Equivalent Annual Cost (EAC)
+EAC converts the cost of an investment into an equivalent annual amount.
+
+```python
+import investment_appraisal
+from investment_appraisal import eac
+
+print("EAC:", eac(cost, annuity_factor, maintenance))
+```
+
+#### Example:
+```python
+print("EAC:", eac(500, 2.4869, 100))
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Time Value of Money ##
 
  ## Present Value ##
