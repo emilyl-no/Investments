@@ -234,15 +234,21 @@ print("EAC:", eac(500, 2.4869, 100))
 ## Explanation 
 ### Brief overview of investment appraisal
 
+Let $n$ be the number of periods $(years)$ & $r$ be the interest rate per period.
+
 ### The present value 
 
 This is the value of a present amount of money at a future date.
 
 $$ \text{present value = future value / discount factor} $$
+where the discount factor is $$(1 + r)^-n$$
 
 ### The future value 
 
-This is the value today of a future amount of money
+This is the value today of a future amount of money.
+
+$$\text{future value = present value / compounding factor} $$
+where the compounding factor is $$(1 + 2)^n$$
 
 ### The annuity present value
 
