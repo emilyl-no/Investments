@@ -231,14 +231,21 @@ print("EAC:", eac(500, 2.4869, 100))
 ```
 
 
+## Explanation 
+### Brief overiew of investment appraisal
+
+### The present value 
+### The future value 
+### The annuity present value
+
+## Reference 
+### List of functionality 
+### Bibliography 
 
 
-
-
-
-
-
-
+### Testing the software
+To test the code:
+To test the documentation:
 
 
 
