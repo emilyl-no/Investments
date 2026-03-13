@@ -232,10 +232,18 @@ print("EAC:", eac(500, 2.4869, 100))
 
 
 ## Explanation 
-### Brief overiew of investment appraisal
+### Brief overview of investment appraisal
 
 ### The present value 
+
+This is the value of a present amount of money at a future date.
+
+$$ \text{present value = future value / discount factor} $$
+
 ### The future value 
+
+This is the value today of a future amount of money
+
 ### The annuity present value
 
 ## Reference 
