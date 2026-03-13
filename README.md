@@ -251,6 +251,9 @@ $$\text{future value = present value / compounding factor} $$
 where the compounding factor is $$(1 + r)^n$$
 
 ### The annuity present value
+### Net Present Value 
+
+This measures the difference between the $$PV$$ of all future cash inflows, $$PV_in$$, and the investment outlay, $$I_out$$. $$\text{NPV = PV_in - I_out}$$
 
 ## Reference 
 ### List of functionality 
