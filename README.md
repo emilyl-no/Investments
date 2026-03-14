@@ -339,7 +339,7 @@ $$PV = \frac{\text{R}}{\text{r}}$$
 
 **Growing Perpetuity**: The holder receives the first payment in a full year, and the payment grows at a constant rate $$g$$. The $$PV$$ is calculate as follows:
 
-$$PV = \frac{\text{R}}{\text{r - g}}$$
+$$PV = \frac{R}{r - g}$$
 
 
 ## Reference 
