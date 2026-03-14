@@ -333,6 +333,7 @@ $$
 ### Perpetuities
 
 A perpetuity is an annuity with payments start at a fixed date and continue forever.
+
 **Ordinary Perpetuity**: The holder receives the first paymwnt in a full year. The $$PV$$ is calculated as follows:
 
 $$PV = \frac{R}{r}$$
