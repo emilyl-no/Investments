@@ -6,8 +6,8 @@ In this tutorial we will see how to use 'invesment_appraisal' to analyse potenti
 
 In order to use any of the functions, you first need to write:
 ``` python 
-import invesment_appraisal
-from invesment_appraisal import function
+import investment_appraisal
+from investment_appraisal import function
 ```
 Where **'function'** is the relevant function you want to use. 
 In the **How to guide**, it is shown how to use the different functions.
@@ -32,8 +32,8 @@ $n$=....
 To obtain the present value for ..., we can write:
 
 ``` python
-import invesment_appraisal
-from invesment_appraisal import present_value
+import investment_appraisal
+from investment_appraisal import present_value
 
 print ("Present value:", present_value(..,..))
 ```
@@ -43,16 +43,16 @@ This gives:
 Given a present value $PV$, interest rate $r$, and time period $n$:
 
 ``` python
-import invesment_appraisal
-from invesment_appraisal import future_value
+import investment_appraisal
+from investment_appraisal import future_value
 
 print("Future value:", future_value(PV,r,n))
 ```
 To obtain the future value, we can write:
 
 ``` python
-import invesment_appraisal
-from invesment_appraisal import future_value
+import investment_appraisal
+from investment_appraisal import future_value
 
 print("Future value:", future_value(...,..))
 ``` 
@@ -66,8 +66,8 @@ An annuity is a series of equal payments over time.
 Given payment $C$,interest rate $r$, and a number of periods $n$:
 
 ``` python
-import invesment_appraisal
-from invesment_appraisal import annuity_present_value
+import investment_appraisal
+from investment_appraisal import annuity_present_value
 
 print("Annuity present value:",annuity_present_value(C,r,n))
 ```
@@ -81,8 +81,8 @@ Suppose
 To calculate the annuity present value we can write:
 
 ``` python
-import invesment_appraisal
-from invesment_appraisal import annuity_present_value
+import investment_appraisal
+from investment_appraisal import annuity_present_value
 
 print("Annuity present value, annuity_present_value(..,..,..))
 ```
@@ -92,7 +92,7 @@ A perpetuity is a payment that continues forever.
 Given a payment $C$ and interest rate $r$:
 
 ``` python
-import invesment_appraisal
+import investment_appraisal
 from invesment_appraisal import perpetuity
 
 print("Perpetuity value:", perpetuity(C,r))
@@ -106,8 +106,8 @@ print ("Perpetuity value:",perpetuity(..,..))
 A growing perpetuity assumes payments grow at rate $g$:
 
 ``` python
-import invesment_appraisal
-from invesment_appraisal import growing_perpetuity
+import investment_appraisal
+from investment_appraisal import growing_perpetuity
 
 print("Growing perpetuity:", growing_perpetuity(C,r,g))
 ```
@@ -296,7 +296,7 @@ This technique considers discounted cash flows and the time value of money.
 
 ### Profitabililty Index
 
-This measures the ratio bewteen the $$PV$$ of future cash flows and the initial investement. The index ranks investment projects and quantifies the value per unit of investment.
+This measures the ratio between the $$PV$$ of future cash flows and the initial investement. The index ranks investment projects and quantifies the value per unit of investment.
 
 $$PI = \frac{\text{PV of future cash flows}}{\text{Initial investment}} = \frac{NPV + \text{Initial investment}}{\text{Initial investment}}$$
 
