@@ -240,20 +240,107 @@ Let $n$ be the number of periods $(years)$ & $r$ be the interest rate per period
 
 This is the value of a present amount of money at a future date.
 
-$$ \text{present value = future value / discount factor} $$
+$$\text{present value = future value / discount factor}$$
 where the discount factor is $$(1 + r)^{-n}$$
 
 ### The future value 
 
 This is the value today of a future amount of money.
 
-$$\text{future value = present value / compounding factor} $$
+$$\text{future value = present value / compounding factor}$$
 where the compounding factor is $$(1 + r)^n$$
 
 ### The annuity present value
+
+$$PV = C \times \frac{1 - (1+r)^{-n}}{r}$$
+
+$$
+\begin{aligned}
+C &= \text{Cash flow each period} \\
+r &= \text{Discount rate} \\
+n &= \text{Number of periods}
+\end{aligned}
+$$
+
 ### Net Present Value 
 
-This measures the difference between the $$PV$$ of all future cash inflows, $$PV_{in}$$, and the investment outlay, $$I_{out}$$. $$\text{NPV = PV_{in} - I_{out}}$$
+This measures the difference between the $$PV$$ of all future cash inflows, $$PV_{in}$$ , and the investment outlay, $$I_{out}$$. $${NPV = PV_{in} - I_{out}}$$
+
+### Internal Rate of Return 
+
+The $IRR$ is the discount (interest) rate that equates the present value of future cash inflows to the initial investment outlay. Equivalently, it is the rate at which the Net Present Value (NPV) of a project is zero.
+
+$$0 = R_0 + \sum_{i=1}^{n} \frac{R_i}{(1+r)^i}$$
+
+where $$R_0$$ is the initial investment (typically negative), and $$R_i$$ is the cash flow at the time $$i$$, and $$r$$ is the Internal Rate of Return.
+
+**Investment Decision Rule using IRR**
+- If the cost of capital $$k > r$$, REJECT THE PROJECT
+- If the cost of capital $$k \leq r$$, ACCEPT THE PROJECT
+
+### Payback Period 
+
+The payback period is the time required to recover the original investment or reach the break-even point. 
+
+**Investment Decision with Payback**
+- If $$t \leq B$$ where $$t$$ is the points in time, ACCEPT THE PROJECT
+- If $$t \geq B$$ where $$t$$ is the points in time, REJECT THE PROJECT
+
+### Discounted Payback Period 
+
+This technique considers discounted cash flows and the time value of money.
+
+**Investment Decision with Discounted Payback** 
+- If $$DPP \leq$$ target payback period, ACCEPT THE PROJECT
+- If $$DPP$$ > target payback period, REJECT THE PROJECT
+
+### Profitabililty Index
+
+This measures the ratio bewteen the $$PV$$ of future cash flows and the initial investement. The index ranks investment projects and quantifies the value per unit of investment.
+
+$$PI = \frac{\text{PV of future cash flows}}{\text{Initial investment}} = \frac{NPV + \text{Initial investment}}{\text{Initial investment}}$$
+
+**Investment Descision with PI**
+- If $$PI$$ > 1: the investment is worthwhile, ACCEPT THE PROJECT
+- If $$PI$$ < 1: the investment is worthless, REJECT THE PROJECT
+- If $$PI$$ = 1: the investment is breakeven, INDIFFERENT
+- Higher positive $$PI$$ implies greater profitability
+
+### Accounting Rate of Return 
+
+The Accounting Rate of Return (ARR) is the average accounting profit from an investment divided by the average investment (or initial investment).
+
+$$ARR = \frac{\text{Average annual accounting profit}}{\text{Average investment}}$$
+
+**Investment Decision ARR**
+
+If $$ARR$$ ≥ required rate of return, ACCEPT THE PROJECT
+If $$ARR$$ < required rate of return, REJECT THE PROJECT
+
+### Equivalent Annual Cost 
+
+$$EAC$$ represents the constant annual cost of owning and operating an asset over its entire lifetime. It is used to compare the cost-effectiveness of mutually exclusive investments with unequal lifespans.
+
+$$EAC = NPV \times \frac{r}{1 - (1+r)^{-n}}$$
+
+$$
+\begin{aligned}
+n &= \text{project lifetime in years} \\
+r &= \text{annual discount rate}
+\end{aligned}
+$$
+
+### Perpetuities
+
+A perpetuity is an annuity with payments start at a fixed date and continue forever.
+**Ordinary Perpetuity**: The holder receives the first paymwnt in a full year. The $$PV$$ is calculated as follows:
+
+$$PV = \frac{\text{R}}{\text{r}}$$
+
+**Growing Perpetuity**: The holder receives the first payment in a full year, and the payment grows at a constant rate $$g$$. The $$PV$$ is calculate as follows:
+
+$$PV = \frac{\text{R}}{\text{r - g}}$$
+
 
 ## Reference 
 ### List of functionality 
