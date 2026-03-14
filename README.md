@@ -314,8 +314,8 @@ $$ARR = \frac{\text{Average annual accounting profit}}{\text{Average investment}
 
 **Investment Decision ARR**
 
-If $$ARR$$ ≥ required rate of return, ACCEPT THE PROJECT
-If $$ARR$$ < required rate of return, REJECT THE PROJECT
+- If $$ARR$$ ≥ required rate of return, ACCEPT THE PROJECT
+- If $$ARR$$ < required rate of return, REJECT THE PROJECT
 
 ### Equivalent Annual Cost 
 
