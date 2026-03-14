@@ -234,7 +234,7 @@ print("EAC:", eac(500, 2.4869, 100))
 ## Explanation 
 ### Brief overview of investment appraisal
 
-Let $n$ be the number of periods $(years)$ & $r$ be the interest rate per period.
+Let $n$ be the number of periods (years) and $r$ be the interest rate per period.
 
 ### The present value 
 
