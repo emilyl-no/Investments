@@ -335,7 +335,7 @@ $$
 A perpetuity is an annuity with payments start at a fixed date and continue forever.
 **Ordinary Perpetuity**: The holder receives the first paymwnt in a full year. The $$PV$$ is calculated as follows:
 
-$$PV = \frac{\text{R}}{\text{r}}$$
+$$PV = \frac{R}{r}$$
 
 **Growing Perpetuity**: The holder receives the first payment in a full year, and the payment grows at a constant rate $$g$$. The $$PV$$ is calculate as follows:
 
