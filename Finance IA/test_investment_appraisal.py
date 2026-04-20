@@ -98,7 +98,7 @@ def test_eac():
 
     result = ia.eac(rate, n, cost, maintenance)
 
-    # Manually calculate value
+    # Manually calculated value
     
     annuity_factor = (1 - (1.05 ** -5)) / 0.05
     expected = (100000 / annuity_factor) + 4000
