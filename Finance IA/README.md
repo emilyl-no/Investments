@@ -123,12 +123,10 @@ from investment_appraisal import annuity_pv
 print("Annuity present value:",annuity_pv(C, r, n))
 ```
 #### Example 
-``` python
-Suppose
-- $C$
-- $r$
-- $n$
-```
+**Suppose:**
+- $C = ...$  
+- $r = ..$ 
+- $n = ..$
 
 To calculate the annuity present value we can write:
 
