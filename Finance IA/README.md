@@ -194,8 +194,10 @@ print("IRR:", irr(cashflows))
 ```
 #### Example:
 ``` python
-
-print("IRR:", irr(cashflows, Period
+cashflows = ...
+print("IRR:", irr(...)
+```
+### How to compute Payback Period
 The payback period measures how long it takes for an investment to recover its initial cost.
 ```python
 import investment_appraisal
@@ -205,9 +207,10 @@ print("Payback period:", payback_period(initial_investment, cashflows))
 ```
 #### Example:
 ```python
-cashflows = 
+cashflows = ..,
 
-print("Payback period:", payback_period(.., cashflows))
+
+print("Payback period:", payback_period(..,))
 ```
 
 
