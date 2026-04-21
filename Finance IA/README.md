@@ -429,6 +429,7 @@ Available functions of the `investment_appraisal` library.
 
 ### Bibliography 
 [Springer Investment Appraisal Methods and Models](<Investment Appraisal Springer.html>) - used for examples
+
 https://www.geeksforgeeks.org/python/abs-in-python/ - used for testing
 
 
