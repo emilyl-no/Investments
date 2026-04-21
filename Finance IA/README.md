@@ -433,7 +433,7 @@ Available functions of the `investment_appraisal` library.
 `growing_perpetuity`
 
 ### Bibliography 
-[Springer Investment Appraisal Methods and Models](<Investment Appraisal Springer.html>) - used for examples
+[Springer Investment Appraisal Methods and Models](<https://1drv.ms/b/c/8b5938a93f200001/IQCxBlKSwj5aSoycg0H97JpmARXj6-Ht1GC_IUvqPOtp2ew?e=cWcI60>) - used for examples
 
 https://www.geeksforgeeks.org/python/abs-in-python/ - used for testing
 
