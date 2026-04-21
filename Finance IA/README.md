@@ -203,7 +203,7 @@ The payback period measures how long it takes for an investment to recover its i
 import investment_appraisal
 from investment_appraisal import payback_period
 
-print("Payback period:", payback_period(initial_investment, cashflows))
+print("Payback period:", payback_period(cashflows))
 ```
 #### Example:
 ```python
@@ -226,9 +226,10 @@ print("Discounted payback period:", discounted_payback(rate, cashflows))
 #### Example:
 
 ```python
+rate = ..
 cashflows = ...
 
-print("Discounted payback period:", discounted_payback(1000, cashflows, 0.1))
+print("Discounted payback period:", discounted_payback(.., ...))
 ```
 
 
@@ -244,7 +245,8 @@ print("Profitability index:", profitability_index(C, cashflows))
 ```
 #### Example:
 ```python
-cashflows = 
+rate = ..
+cashflows = ...
 
 print("Profitability index:", profitability_index(rate, ..))
 ```
