@@ -78,20 +78,21 @@ from investment_appraisal import present_value
 
 print("Present value:", present_value(FV, r, n))
 ```
-Using .... example, we have:
-$FV$ = ....
-$r$=....
-$n$=....
+We have:
+$FV$ = 1000
+$r$=0.1
+$n$=2
 
-To obtain the present value for ..., we can write:
+To obtain the present value, we can write:
 
 ``` python
 import investment_appraisal
 from investment_appraisal import present_value
 
-print ("Present value:", present_value(...,))
+print ("Present value:", present_value(1000,0.1,2))
 ```
-This gives:
+This gives: 
+Present value: 826.45
 
 ### How to compute the future value 
 Given a present value $PV$, interest rate $r$, and time period $n$:
@@ -108,9 +109,11 @@ To obtain the future value, we can write:
 import investment_appraisal
 from investment_appraisal import future_value
 
-print("Future value:", future_value(...,..))
+print("Future value:", future_value(1000,0.1,2))
 ``` 
-
+This gives:
+Future value: 1210.0
+This means that £1000 invested today will grow to £1210 in 2 years at an interest rate of 10%.
 
 ### How to compute annuity present value
 
@@ -131,8 +134,11 @@ To calculate the annuity present value we can write:
 import investment_appraisal
 from investment_appraisal import annuity_pv
 
-print("Annuity present value", annuity_pv(..,..,..))
+print("Annuity present value", annuity_pv(1000,0.1,3))
 ```
+This gives:
+Annunity present value: 2486.85
+This means that receiving £1000 each year for 3 years is worth £2486.85 today when discounted at 10%.
 
 ### How to compute perpetuity
 A perpetuity is a payment that continues forever. 
@@ -146,8 +152,11 @@ print("Perpetuity value:", perpetuity(C, r))
 ```
 #### Example 
 ``` python
-print ("Perpetuity value:",perpetuity(..,..))
+print ("Perpetuity value:",perpetuity(1000,0.1))
 ```
+This gives:
+Perpetuity value: 10000.0
+This means that receiving £1000 every year forever is worth £10,000 today when discounted at 10%.
 
 ### How to compute growing perpetuity
 A growing perpetuity assumes payments grow at rate $g$:
@@ -161,8 +170,11 @@ print("Growing perpetuity:", growing_perpetuity(C, r, g))
 
 #### Example 
 ``` python
-print ("Growing perpetuity:",growing_perpetuity(..,..))
+print ("Growing perpetuity:",growing_perpetuity(1000,0.1,0.2))
 ```
+This gives:
+Growing perpetuity: 12500.0
+This means that a payment starting at £1000 and growing at 2% per year forever is worth £12,500 today when discounted at 10%.
 
 ### How to compute Net Present Value (NPV)
 NPV measures the value of an investment by discounting all future cash flows.
@@ -175,10 +187,13 @@ print("NPV:", npv(cashflows, r))
 ```
 #### Example
 ``` python
-cash_flows = 
+cash_flows = [-100000, 40000, 50000, 60000]
 
-print("NPV:", npv(cashflows, ..))
+print("NPV:", npv(cashflows, 0.1))
 ```
+This gives:
+NPV: 2241.0
+Since the NPV is positive, this indicates that the investment is profitable and should be accepted.
 
 ### How to compute Internal Rate of Return (IRR)
 
@@ -193,7 +208,8 @@ print("IRR:", irr(cashflows))
 ``` python
 
 print("IRR:", irr(cashflows, Period
-The payback period measures how long it takes for an investment to recover its initial cost.
+The payback period measures how long it takes for an investment to recover
+its initial cost.
 ```python
 import investment_appraisal
 from investment_appraisal import payback_period
@@ -202,9 +218,9 @@ print("Payback period:", payback_period(initial_investment, cashflows))
 ```
 #### Example:
 ```python
-cashflows = 
+cashflows = [-100000,40000,50000,60000]
 
-print("Payback period:", payback_period(.., cashflows))
+print("Payback period:", payback_period( cashflows))
 ```
 
 
@@ -220,11 +236,13 @@ print("Discounted payback period:", discounted_payback(rate, cashflows))
 #### Example:
 
 ```python
-cashflows = ...
+cashflows = [-100000, 40000, 50000, 60000]
 
 print("Discounted payback period:", discounted_payback(1000, cashflows, 0.1))
 ```
-
+This gives:
+Discounted payback period: 3
+This means that when accounting for the time value of money, the investment is recovered in approximately 3 years.
 
 ### How to compute Profitability Index
 
@@ -238,10 +256,13 @@ print("Profitability index:", profitability_index(C, cashflows))
 ```
 #### Example:
 ```python
-cash_flows = 
+cash_flows = [-100000, 40000, 50000, 60000]
 
-print("Profitability index:", profitability_index(rate, ..))
+print("Profitability index:", profitability_index(0.1, cashflow))
 ```
+This gives:
+Profitability index: 1.02 
+A profitability index greater than 1 indicates the investment creates value and should be accepted.
 
 ### How to compute Average Rate of Return (ARR)
 ARR measures the profitability of an investment relative to its cost.
@@ -255,8 +276,11 @@ print("ARR:", arr(average_profit, initial_investment, scrap_value=0))
 
 #### Example:
 ```python
-print("ARR:", arr(200, 1000))
+print("ARR:", arr(20000, 100000))
 ```
+This gives 
+ARR: 0.2
+An ARR of 20% indicated the project generates 20% return on the initial investment per year.
 
 ### How to compute Equivalent Annual Cost (EAC)
 EAC converts the cost of an investment into an equivalent annual amount.
@@ -272,9 +296,10 @@ print("EAC:", eac(rate, n, npv, maintenance))
 ```python
 print("EAC:", eac(0.03, 5, 5000, 100))
 ```
+This gives:
+EAC: 1095.24
+This means that the investment has an equivalent annual cost of £1095.24 per year over the 5 years when discounted at 3%. 
 
-
-## Explanation 
 ### Brief overview of investment appraisal
 
 Let $n$ be the number of periods (years) and $r$ be the interest rate per period.
