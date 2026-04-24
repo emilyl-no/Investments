@@ -93,6 +93,7 @@ print ("Present value:", present_value(1000,0.1,2))
 ```
 
 Present value: 826.45
+
 This means that £1000 received in 2 years is worth £826.45 today when discounted at 10%.
 
 ### How to compute the future value 
@@ -114,6 +115,7 @@ print("Future value:", future_value(1000,0.1,2))
 ``` 
 
 Future value: 1210.0
+
 This means that £1000 invested today will grow to £1210 in 2 years at an interest rate of 10%.
 
 ### How to compute annuity present value
@@ -139,6 +141,7 @@ print("Annuity present value", annuity_pv(1000,0.1,3))
 ```
 
 Annunity present value: 2486.85
+
 This means that receiving £1000 each year for 3 years is worth £2486.85 today when discounted at 10%.
 
 ### How to compute perpetuity
@@ -157,6 +160,7 @@ print ("Perpetuity value:",perpetuity(1000,0.1))
 ```
 
 Perpetuity value: 10000.0
+
 This means that receiving £1000 every year forever is worth £10,000 today when discounted at 10%.
 
 ### How to compute growing perpetuity
@@ -175,6 +179,7 @@ print ("Growing perpetuity:",growing_perpetuity(1000,0.1,0.2))
 ```
 
 Growing perpetuity: 12500.0
+
 This means that a payment starting at £1000 and growing at 2% per year forever is worth £12,500 today when discounted at 10%.
 
 ### How to compute Net Present Value (NPV)
@@ -194,6 +199,7 @@ print("NPV:", npv(0.12,cashflows))
 ```
 
 NPV: 47033.0
+
 Since the NPV is positive, this indicates that the investment is profitable and should be accepted.
 
 ### How to compute Internal Rate of Return (IRR)
@@ -243,6 +249,7 @@ print("Discounted payback period:", discounted_payback(0.12,cashflows))
 ```
 
 Discounted payback period: 2
+
 This means that when accounting for the time value of money, the investment is recovered in approximately 2 years.
 
 ### How to compute Profitability Index
@@ -280,8 +287,9 @@ print("ARR:", arr(average_profit, initial_investment, scrap_value=0))
 ```python
 print("ARR:", arr(20000, 100000))
 ```
-This gives 
+
 ARR: 0.2
+
 An ARR of 20% indicated the project generates 20% return on the initial investment per year.
 
 ### How to compute Equivalent Annual Cost (EAC)
@@ -300,6 +308,7 @@ print("EAC:", eac(0.12,3,100000,5000))
 ```
 
 EAC: 42600.0
+
 This means that the investment has an equivalent annual cost of £42,600 per year over the 3 years when discounted at 12%. 
 
 ### Brief overview of investment appraisal
