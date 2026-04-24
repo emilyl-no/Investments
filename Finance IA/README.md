@@ -79,9 +79,9 @@ from investment_appraisal import present_value
 print("Present value:", present_value(FV, r, n))
 ```
 We have:
-$FV$ = 1000
-$r$=0.1
-$n$=2
+-$FV$ = 1000
+-$r$=0.1
+-$n$=2
 
 To obtain the present value, we can write:
 
@@ -93,6 +93,7 @@ print ("Present value:", present_value(1000,0.1,2))
 ```
 This gives: 
 Present value: 826.45
+This means that £1000 received in 2 years is worth £826.45 today when discounted at 10%.
 
 ### How to compute the future value 
 Given a present value $PV$, interest rate $r$, and time period $n$:
