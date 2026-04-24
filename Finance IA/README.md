@@ -91,7 +91,7 @@ from investment_appraisal import present_value
 
 print ("Present value:", present_value(1000,0.1,2))
 ```
-This gives: 
+
 Present value: 826.45
 This means that £1000 received in 2 years is worth £826.45 today when discounted at 10%.
 
@@ -112,7 +112,7 @@ from investment_appraisal import future_value
 
 print("Future value:", future_value(1000,0.1,2))
 ``` 
-This gives:
+
 Future value: 1210.0
 This means that £1000 invested today will grow to £1210 in 2 years at an interest rate of 10%.
 
@@ -137,7 +137,7 @@ from investment_appraisal import annuity_pv
 
 print("Annuity present value", annuity_pv(1000,0.1,3))
 ```
-This gives:
+
 Annunity present value: 2486.85
 This means that receiving £1000 each year for 3 years is worth £2486.85 today when discounted at 10%.
 
@@ -155,7 +155,7 @@ print("Perpetuity value:", perpetuity(C, r))
 ``` python
 print ("Perpetuity value:",perpetuity(1000,0.1))
 ```
-This gives:
+
 Perpetuity value: 10000.0
 This means that receiving £1000 every year forever is worth £10,000 today when discounted at 10%.
 
@@ -173,7 +173,7 @@ print("Growing perpetuity:", growing_perpetuity(C, r, g))
 ``` python
 print ("Growing perpetuity:",growing_perpetuity(1000,0.1,0.2))
 ```
-This gives:
+
 Growing perpetuity: 12500.0
 This means that a payment starting at £1000 and growing at 2% per year forever is worth £12,500 today when discounted at 10%.
 
@@ -192,7 +192,7 @@ cash_flows = [-100000, 40000, 50000, 60000]
 
 print("NPV:", npv(cashflows, 0.1))
 ```
-This gives:
+
 NPV: 2241.0
 Since the NPV is positive, this indicates that the investment is profitable and should be accepted.
 
@@ -241,7 +241,7 @@ cashflows = [-100000, 40000, 50000, 60000]
 
 print("Discounted payback period:", discounted_payback(1000, cashflows, 0.1))
 ```
-This gives:
+
 Discounted payback period: 3
 This means that when accounting for the time value of money, the investment is recovered in approximately 3 years.
 
@@ -261,7 +261,7 @@ cash_flows = [-100000, 40000, 50000, 60000]
 
 print("Profitability index:", profitability_index(0.1, cashflow))
 ```
-This gives:
+
 Profitability index: 1.02 
 A profitability index greater than 1 indicates the investment creates value and should be accepted.
 
@@ -297,7 +297,7 @@ print("EAC:", eac(rate, n, npv, maintenance))
 ```python
 print("EAC:", eac(0.03, 5, 5000, 100))
 ```
-This gives:
+
 EAC: 1095.24
 This means that the investment has an equivalent annual cost of £1095.24 per year over the 5 years when discounted at 3%. 
 
