@@ -27,3 +27,4 @@ Every member contributed to at least one section of project - the contributions 
 ## Powerpoint presentation
 
 - Samhal Guesh
+- Tahera Hussain
