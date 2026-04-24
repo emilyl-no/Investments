@@ -147,7 +147,7 @@ Given a payment $C$ and interest rate $r$:
 
 ``` python
 import investment_appraisal
-from invesment_appraisal import perpetuity
+from investment_appraisal import perpetuity
 
 print("Perpetuity value:", perpetuity(C, r))
 ```
@@ -188,12 +188,12 @@ print("NPV:", npv(cashflows, r))
 ```
 #### Example
 ``` python
-cash_flows = [-100000, 40000, 50000, 60000]
+cash_flows = [-100000, 70000, 85000, 65000]
 
-print("NPV:", npv(cashflows, 0.1))
+print("NPV:", npv(0.12,cashflows))
 ```
 
-NPV: 2241.0
+NPV: 47033.0
 Since the NPV is positive, this indicates that the investment is profitable and should be accepted.
 
 ### How to compute Internal Rate of Return (IRR)
@@ -219,7 +219,7 @@ print("Payback period:", payback_period(initial_investment, cashflows))
 ```
 #### Example:
 ```python
-cashflows = [-100000,40000,50000,60000]
+cashflows = [-100000, 70000, 85000, 65000]
 
 print("Payback period:", payback_period( cashflows))
 ```
@@ -237,13 +237,13 @@ print("Discounted payback period:", discounted_payback(rate, cashflows))
 #### Example:
 
 ```python
-cashflows = [-100000, 40000, 50000, 60000]
+cashflows = [-100000, 70000, 85000, 65000]
 
-print("Discounted payback period:", discounted_payback(1000, cashflows, 0.1))
+print("Discounted payback period:", discounted_payback(0.12,cashflows))
 ```
 
-Discounted payback period: 3
-This means that when accounting for the time value of money, the investment is recovered in approximately 3 years.
+Discounted payback period: 2
+This means that when accounting for the time value of money, the investment is recovered in approximately 2 years.
 
 ### How to compute Profitability Index
 
@@ -257,12 +257,12 @@ print("Profitability index:", profitability_index(C, cashflows))
 ```
 #### Example:
 ```python
-cash_flows = [-100000, 40000, 50000, 60000]
+cash_flows = [-100000, 70000, 85000, 65000]
 
-print("Profitability index:", profitability_index(0.1, cashflow))
+print("Profitability index:", profitability_index(0.12, cashflow))
 ```
 
-Profitability index: 1.02 
+Profitability index: 1.47
 A profitability index greater than 1 indicates the investment creates value and should be accepted.
 
 ### How to compute Average Rate of Return (ARR)
@@ -295,11 +295,11 @@ print("EAC:", eac(rate, n, npv, maintenance))
 
 #### Example:
 ```python
-print("EAC:", eac(0.03, 5, 5000, 100))
+print("EAC:", eac(0.12,3,100000,5000))
 ```
 
-EAC: 1095.24
-This means that the investment has an equivalent annual cost of £1095.24 per year over the 5 years when discounted at 3%. 
+EAC: 42600.0
+This means that the investment has an equivalent annual cost of £42,600 per year over the 3 years when discounted at 12%. 
 
 ### Brief overview of investment appraisal
 
