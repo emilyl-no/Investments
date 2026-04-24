@@ -342,6 +342,12 @@ $$PV = \frac{R}{r}$$
 
 $$PV = \frac{R}{r - g}$$
 
+summery of desition rules:
+- NPV: Accept if > 0
+- IRR: Accept if > discounted rate
+- PI:  Accept if > 1
+- payback period: shorter time is preferred
+- ARR: higher ARR is preferred
 
 ## Reference 
 ### List of functionality 
