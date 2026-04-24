@@ -263,6 +263,7 @@ print("Profitability index:", profitability_index(0.12, cashflow))
 ```
 
 Profitability index: 1.47
+
 A profitability index greater than 1 indicates the investment creates value and should be accepted.
 
 ### How to compute Average Rate of Return (ARR)
