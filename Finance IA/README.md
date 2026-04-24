@@ -1,6 +1,6 @@
 # Investment appraisal
 Investment appraisal techniques are used to evaluate whether a project or investment is financially worthwhile.
-The investment_appraisal requires the installation of the NumPy Financial library for full functionlity.
+The investment_appraisal requires the installation of the NumPy Financial library for full functionality.
 
 ## Tutorial 
 In this tutorial we will see how to use `investment_appraisal` to analyse potential investment projects.
