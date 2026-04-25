@@ -3,7 +3,7 @@ Investment appraisal techniques are used to evaluate whether a project or invest
 
 ## Tutorial 
 In this tutorial we will see how to use 'invesment_appraisal' to analyse potential investment projects.
-
+All functions return numerical values representing financial metric.
 In order to use any of the functions, you first need to write:
 ``` python 
 import investment_appraisal
@@ -93,7 +93,7 @@ Given a payment $C$ and interest rate $r$:
 
 ``` python
 import investment_appraisal
-from invesment_appraisal import perpetuity
+from investment_appraisal import perpetuity
 
 print("Perpetuity value:", perpetuity(C,r))
 ```
