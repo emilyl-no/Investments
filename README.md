@@ -342,7 +342,7 @@ $$PV = \frac{R}{r}$$
 
 $$PV = \frac{R}{r - g}$$
 
-summery of desition rules:
+summery of decision rules:
 - NPV: Accept if > 0
 - IRR: Accept if > discounted rate
 - PI:  Accept if > 1
