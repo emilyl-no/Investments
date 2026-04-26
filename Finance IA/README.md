@@ -80,8 +80,8 @@ print("Present value:", present_value(FV, r, n))
 ```
 We have:
 $FV$ = 1000
-$r$=0.1
-$n$=2
+$r$ = 0.1
+$n$ = 2
 
 To obtain the present value, we can write:
 
