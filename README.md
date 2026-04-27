@@ -351,6 +351,16 @@ $$
 
 This measures the difference between the $$PV$$ of all future cash inflows, $$PV_{in}$$ , and the investment outlay, $$I_{out}$$. $${NPV = PV_{in} - I_{out}}$$
 
+**Investment Decision Rule using NPV**
+- If the Net Present Value $$NPV > 0$$, ACCEPT THE PROJECT
+- If the Net Present Value $$NPV < 0$$, REJECT THE PROJECT
+- If the Net Present Value $$NPV = 0$$, INDIFFERENT BETWEEN ACCEPTING OR REJECTING
+
+⇒ Positive NPV: PV of future cash flows > PV of investment [Accept]  
+⇒ Negative NPV: PV of future cash flows < PV of investment [Reject]  
+⇒ Zero NPV: PV of future cash flows = PV of investment [Indifferent]  
+⇒ Higher positive NPV implies greater profitability
+
 ### Internal Rate of Return 
 
 The $IRR$ is the discount (interest) rate that equates the present value of future cash inflows to the initial investment outlay. Equivalently, it is the rate at which the Net Present Value (NPV) of a project is zero.
