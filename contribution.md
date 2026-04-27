@@ -30,7 +30,8 @@ Every member contributed to at least one section of project - the contributions 
 - Samhal Guesh
 - Emily Latchem
 
-  ## Video presentation
+## Video presentation
+
 - Dalya Al Sallo
 - Emily Latchem
 - Samhal Guesh
