@@ -450,9 +450,14 @@ $$PV = \frac{R}{r}$$
 
 $$PV = \frac{R}{r - g}$$
 
-
+summary of decision rules for a positive outcome:
+- NPV: Accept if NPV \geq 0
+- IRR: Accept if IRR \geq given discount rate
+- PI: Accept if PI > 1
+- payback period: shorter time is preferred
+- ARR: Higher ARR is preferred
 ## References 
-### List of functionality 
+### List of functionalities 
 Available functions of the `investment_appraisal` library.
 
 `present_value`
