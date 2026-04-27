@@ -356,10 +356,10 @@ This measures the difference between the $$PV$$ of all future cash inflows, $$PV
 - If the Net Present Value $$NPV < 0$$, REJECT THE PROJECT
 - If the Net Present Value $$NPV = 0$$, INDIFFERENT BETWEEN ACCEPTING OR REJECTING
 
-⇒ Positive NPV: PV of future cash flows > PV of investment [Accept]  
-⇒ Negative NPV: PV of future cash flows < PV of investment [Reject]  
-⇒ Zero NPV: PV of future cash flows = PV of investment [Indifferent]  
-⇒ Higher positive NPV implies greater profitability
+⇒ Positive $$NPV: PV of future cash flows > PV$$ of investment [Accept]  
+⇒ Negative $$NPV: PV of future cash flows < PV$$ of investment [Reject]  
+⇒ Zero $$NPV: PV of future cash flows = PV$$ of investment [Indifferent]  
+⇒ Higher positive $$NPV$$ implies greater profitability
 
 ### Internal Rate of Return 
 
