@@ -382,7 +382,7 @@ The payback period is the time required to recover the original investment or re
 
 **Investment Decision with Payback**
 - If $$t \leq B$$ where $$t$$ is the points in time, ACCEPT THE PROJECT
-- If $$t \geq B$$ where $$t$$ is the points in time, REJECT THE PROJECT
+- If $$t > B$$ where $$t$$ is the points in time, REJECT THE PROJECT
 
 ### Discounted Payback Period 
 
