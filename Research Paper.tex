@@ -1,0 +1,96 @@
+\documentclass[10pt]{article}
+
+\usepackage[a4paper,margin=0.7in]{geometry}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{setspace}
+\usepackage{titlesec}
+
+\setstretch{1.0}
+\setlength{\parskip}{3pt}
+\setlength{\parindent}{0pt}
+
+\titlespacing*{\section}{0pt}{6pt}{3pt}
+
+\title{\vspace{-1cm}Investment Appraisal}
+\author{Dalya Al Sallo, Emily Latchem, Samhal Guesh, Tahera Hussain}
+\date{April 2026}
+
+\begin{document}
+
+\maketitle
+\vspace{-1cm}
+
+\section{Investment Appraisal}
+
+Investment appraisal is the process used by businesses and investors to evaluate whether a project is financially worthwhile. It compares initial costs with expected future cash flows to determine profitability and risk, forming an important part of capital budgeting decisions (Brealey, Myers \& Allen, 2020).
+
+A key principle is the time value of money, meaning money today is worth more than in the future. Therefore, future cash flows are discounted to present value for fair comparison (Ross, Westerfield \& Jaffe, 2019).
+
+Common methods include Net Present Value (NPV), Internal Rate of Return (IRR), Payback Period and Profitability Index (Umeorah, 2024).
+
+\section{UK Government Support}
+
+Government schemes can improve investment outcomes. The Annual Investment Allowance allows firms to deduct qualifying capital expenditure from profits, improving NPV (HM Revenue \& Customs, 2023a).
+
+R\&D tax relief reduces innovation costs and may increase returns (HM Revenue \& Customs, 2023b). Enterprise Investment Schemes provide tax incentives to investors, reducing cost of capital (HM Revenue \& Customs, 2023c).
+
+\section{Library Overview}
+
+The library calculates key investment appraisal metrics from user cash flow data.
+
+\begin{verbatim}
+>>> import investment_appraisal as ia
+>>> ia.npv(0.12, [-100000,70000,85000,65000])
+7527.20
+>>> ia.irr([-100000,70000,85000,65000])
+0.53
+\end{verbatim}
+
+A positive NPV indicates value creation, while an IRR above the discount rate suggests an attractive investment.
+
+\subsection*{Available Methods} Present Value, Future Value, NPV, IRR, Payback Period, Discounted Payback, Profitability Index, ARR, Annuity PV, Perpetuity, Growing Perpetuity.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.55\textwidth]{PI graph.png}
+\caption{Profitability Index of five projects. Values above 1 indicate acceptable investments, with higher values representing greater value generated per pound invested.}
+\end{figure}
+
+\vspace{-0.3cm}
+
+
+
+\section{Statement of Need}
+
+
+
+
+
+This library is not entirely unique, as financial tools such as NumPy Financial already provide functions for calculations including NPV and IRR. However, unlike many existing tools, this library combines a wider range of investment appraisal techniques into one accessible package while also focusing on simplicity and interpretation of results.
+
+Investors can use the library to evaluate potential projects before committing funds. In addition, firms can use it to compare alternative investments, support capital budgeting decisions, and improve long-term financial planning. The library can also help students and new users understand key concepts such as the time value of money, project profitability, and investment returns. By bringing together multiple techniques in one place, the library provides a practical tool for both learning and real-world financial analysis.
+
+\section{Conclusion}
+
+Investment appraisal is essential for evaluating project viability and supporting capital budgeting decisions. This library provides a practical tool for applying methods such as NPV and IRR.
+
+Future improvements could include tools for comparing multiple projects simultaneously and additional visualisation features.
+
+\section*{References}
+
+Brealey, R. A., Myers, S. C. \& Allen, F. (2020) \textit{Principles of Corporate Finance}.  
+
+Ross, S. A., Westerfield, R. W. \& Jaffe, J. (2019) \textit{Corporate Finance}.  
+
+Umeorah, N. (2024) Lecture Notes. Cardiff University. Note - not available for public use.
+
+HM Revenue \& Customs (2023a) \textit{Annual Investment Allowance Guidance}. GOV.UK.  
+
+HM Revenue \& Customs (2023b) \textit{R\&D Tax Relief Guidance}. GOV.UK.  
+
+HM Revenue \& Customs (2023c) \textit{Enterprise Investment Scheme Guidance}. GOV.UK.  
+
+Python libraries such as NumPy Financial and Matplotlib were used for calculation and visualisation purposes.
+
+\end{document}
