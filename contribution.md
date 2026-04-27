@@ -13,6 +13,7 @@ Every member contributed to at least one section of project - the contributions 
 
 - Dalya Al Sallo
 - Tahera Hussain
+- Samhal Guesh
 
 ## test_investment_appraisal.py document
 
