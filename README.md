@@ -356,9 +356,9 @@ This measures the difference between the $$PV$$ of all future cash inflows, $$PV
 - If the Net Present Value $$NPV < 0$$, REJECT THE PROJECT
 - If the Net Present Value $$NPV = 0$$, INDIFFERENT BETWEEN ACCEPTING OR REJECTING
 
-⇒ Positive $$NPV: PV of future cash flows > PV$$ of investment [Accept]  
-⇒ Negative $$NPV: PV of future cash flows < PV$$ of investment [Reject]  
-⇒ Zero $$NPV: PV of future cash flows = PV$$ of investment [Indifferent]  
+⇒ Positive $$NPV: PV$$ of future cash flows $$> PV$$ of investment [Accept]  
+⇒ Negative $$NPV: PV$$ of future cash flows $$< PV$$ of investment [Reject]  
+⇒ Zero $$NPV: PV$$ of future cash flows $$= PV$$ of investment [Indifferent]  
 ⇒ Higher positive $$NPV$$ implies greater profitability
 
 ### Internal Rate of Return 
@@ -387,7 +387,7 @@ This technique considers discounted cash flows and the time value of money.
 
 **Investment Decision with Discounted Payback** 
 - If $$DPP \leq$$ target payback period, ACCEPT THE PROJECT
-- If $$DPP$$ > target payback period, REJECT THE PROJECT
+- If $$DPP >$$ target payback period, REJECT THE PROJECT
 
 ### Profitabililty Index
 
@@ -396,9 +396,9 @@ This measures the ratio between the $$PV$$ of future cash flows and the initial 
 $$PI = \frac{\text{PV of future cash flows}}{\text{Initial investment}} = \frac{NPV + \text{Initial investment}}{\text{Initial investment}}$$
 
 **Investment Decision with PI**
-- If $$PI$$ > 1: the investment is worthwhile, ACCEPT THE PROJECT
-- If $$PI$$ < 1: the investment is worthless, REJECT THE PROJECT
-- If $$PI$$ = 1: the investment is breakeven, INDIFFERENT
+- If $$PI >$$ 1: the investment is worthwhile, ACCEPT THE PROJECT
+- If $$PI$$ <$$ 1: the investment is worthless, REJECT THE PROJECT
+- If $$PI =$$ 1: the investment is breakeven, INDIFFERENT
 - Higher positive $$PI$$ implies greater profitability
 
 ### Accounting Rate of Return 
@@ -410,7 +410,7 @@ $$ARR = \frac{\text{Average annual accounting profit}}{\text{Average investment}
 **Investment Decision ARR**
 
 - If $$ARR \geq$$ required rate of return, ACCEPT THE PROJECT
-- If $$ARR$$ < required rate of return, REJECT THE PROJECT
+- If $$ARR$$ $$< $$required rate of return, REJECT THE PROJECT
 
 ### Equivalent Annual Cost 
 
