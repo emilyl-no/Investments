@@ -400,7 +400,7 @@ $$PI = \frac{\text{PV of future cash flows}}{\text{Initial investment}} = \frac{
 
 **Investment Decision with PI**
 - If $$PI >$$ 1: the investment is worthwhile, ACCEPT THE PROJECT
-- If $$PI$$ <$$ 1: the investment is worthless, REJECT THE PROJECT
+- If $$PI <$$ 1: the investment is worthless, REJECT THE PROJECT
 - If $$PI =$$ 1: the investment is breakeven, INDIFFERENT
 - Higher positive $$PI$$ implies greater profitability
 
