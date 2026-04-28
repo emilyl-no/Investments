@@ -25,10 +25,6 @@ Every member contributed to at least one section of project - the contributions 
 - Tahera Hussain
 - Emily Latchem
 
-## Powerpoint presentation
-
-- Samhal Guesh
-- Emily Latchem
 
 ## Video presentation
 
