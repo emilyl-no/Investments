@@ -218,7 +218,7 @@ print("IRR:", irr(cashflows, Period)
 ```
 IRR: 0.53
 
-### How to compute Paybackperiod.
+### How to compute Payback Period.
 The payback period measures how long it takes for an investment to recover
 its initial cost.
 
